@@ -1,5 +1,13 @@
 use sakila;
 
+-- Exercise 1
+SHOW TABLES;
+
+-- Exercise 2
+SELECT * FROM actor
+LIMIT 50;
+-- Equivalent for all other tables
+
 -- Exercise 3
 select title
 from film
